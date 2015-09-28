@@ -1,0 +1,1 @@
+This is repo of barebones structure for a tavel website. Just some expeimentation and learning.
