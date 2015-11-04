@@ -36,13 +36,6 @@ public class Quicksort {
         int n = s.nextInt();
         arr = new int[n];
         for (int i = 0; i < n; i++) arr[i] = s.nextInt();
-
-       /*
-        int n = 10;
-        int[] arr1 = {2,6,3,5,8,4,9,1,0,7};
-        arr = arr1;
-        */
-
         quicksort(0, n);
 
         for (int i = 0; i < n; i++) System.out.print(arr[i]);
